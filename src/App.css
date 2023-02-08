@@ -3,6 +3,23 @@
   display: flex;
   gap: 20px;
   padding: 40px;
+  background:linear-gradient(90deg,#7EFFB2,#2CD9FF);
+
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.loading h1{
+  margin-right: 20px;
+}
+
+.App h1{
+  color: blue;
 }
 
 .custom-scroll::-webkit-scrollbar {
